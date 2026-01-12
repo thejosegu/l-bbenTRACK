@@ -1,0 +1,7 @@
+{
+  "name": "lübbenTRAKpro 0.3.4b",
+  "description": "A comprehensive mood tracking application based on specialized emotional intensity scales and qualitative descriptions.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

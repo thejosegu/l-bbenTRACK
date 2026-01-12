@@ -1,0 +1,24 @@
+
+{
+  "name": "luebbentrak-pro",
+  "version": "0.3.5",
+  "private": true,
+  "description": "Professional Mood Tracker with AI Analysis for Android",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "cap:add:android": "npx cap add android",
+    "cap:copy": "npx cap copy",
+    "cap:sync": "npx cap sync",
+    "cap:open:android": "npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.462.0",
+    "@google/genai": "^0.21.0"
+  }
+}
